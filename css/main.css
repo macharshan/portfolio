@@ -1,0 +1,159 @@
+:root{
+    --site_color_1: #b7c3c5;
+    --site_color_1_hover: #f64e7b;
+    @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">);
+    font-size: 62.5%;
+}
+
+body::after{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    background-image: url(../img/cv.png);
+}
+
+body {
+    background-color: var(--site_color_1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.75;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    font-size: 1.6rem;
+    line-height: 16px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    padding: 1rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* navigation bar */
+
+ .header_main {
+    width: 100%;
+    height: 4rem;
+    color: #e3e3e3;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header_main_title {
+    margin-left: 3rem;
+}
+
+.header_main_title a {
+    font-size: 1.8rem;
+}
+
+.header_main_title a:hover {
+    font-size: 1.9rem;
+    color: var(--site_color_1_hover);
+}
+
+.header_main_navigation {
+    margin-right: 4rem;
+    display: flex;
+}
+ 
+.header_main_navigation a {
+    padding: 0rem 1rem;
+    transition: all ease-in-out 200ms;
+}
+
+.header_main_navigation a:hover {
+    font-size: 1.7rem;
+    color: var(--site_color_1_hover);
+}
+
+/* ------footer------ */
+.footer_main {
+    width: 100%;
+    background-color: #141414;
+    text-transform: uppercase;
+}
+
+.contact {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.getintouch {
+    padding: 1rem 2rem;
+    border: 0.2rem solid #b7c3c5;
+    border-radius: 0.3rem;
+    color: var(--site_color_1);
+}
+
+.sitemap {
+    padding: 2rem 3rem 4rem;
+    flex-basis: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sitemap ul li{ 
+    padding: 0.7rem;
+}
+
+.sitemap a:hover{
+    font-size: 1.7rem;
+    color: var(--site_color_1_hover);
+}
+
+.sitemap ul:nth-child(1) {
+    margin-top: 1rem;
+    flex-basis: 50%;
+    border-left: 0.2rem solid var(--site_color_1_hover);
+}
+
+.sitemap ul:nth-child(2)  p{
+    padding: 0.8rem;
+    color: var(--site_color_1_hover);
+}
+
+
+
+

@@ -1,0 +1,193 @@
+/*------hero-section -----*/
+.hero_section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*------- about------- */
+#about {
+    width: 100%;
+    padding: 4rem 0rem;
+    /* background-color: var(--site_color_1); */
+}
+
+.side_heading {
+    text-align: center;
+    font-weight: 600;
+    padding: 0 0 4rem;
+}
+
+#about h3{
+    padding: 3rem 0 0;
+}
+
+#about p{
+    padding: 2rem 6rem;
+}
+
+#about p a{
+    padding: 0.5rem;
+    font-weight: 600;
+    background-color: #776767;
+    border-radius: 0.7rem;
+}
+
+#about p a:hover {
+    font-size: 1.7rem;
+    line-height: 16px;
+    color: var(--site_color_1_hover);
+}
+
+/* -----education------ */
+#education {
+    margin: 0 auto;
+    background-color: var(--site_color_1);
+    padding: 7rem 0;
+}
+
+#education .education_info {
+    width: 100%;
+    padding: 3rem;
+}
+
+#education .education_info h3{
+    padding-bottom: 4rem;
+}
+
+.education_info th, .education_info td {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 0.2rem solid #ddd;
+}
+
+.education_info th {
+    font-size: 2.1rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+#education_info td {
+    font-weight: 400;
+}
+
+/*------ skills ------*/
+
+#skills {
+    padding: 6rem 0;
+    margin: 0 auto;
+}
+
+#skills h3{
+    padding-bottom: 1.2rem;
+}
+
+#skills h2{
+    padding: 2rem 0;
+    font-weight: 600;
+}
+
+.skill_box {
+    margin: 0 auto;
+    height: 0.4rem;
+    border: 0.1rem solid #000;
+    border-radius: 0.2rem;
+}
+
+.skill_box_fill {
+    height: 0.4rem;
+    background-color:#141414 ;
+}
+
+.java {
+    width: 65%;
+}
+
+.html {
+    width: 40%;
+}
+
+.javascript {
+    width: 10%;
+}
+
+.python {
+    width: 35%;
+}
+
+.sql {
+    width: 50%;
+}
+
+/*------projects------*/
+
+#projects {
+    padding: 8rem 0;
+}
+
+#projects h3{
+    padding: 0 0 4rem;
+}
+
+/*------ cv ------*/
+
+.cv {
+    background-color: #b7c3c5;
+    padding: 8rem 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+    align-items: center;
+}
+
+.cv h3 {
+    font-size: 8rem;
+}
+
+.cv .box {
+    width: 35.2rem;
+    height: 50rem;
+    padding: 0;
+    background-image:url(/img/cv.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.cv .box .bgcolor{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    position: relative;
+    transition: all ease-in-out 150ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv .box .bgcolor a{
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    line-height: 6rem;
+}
+
+.cv .box ul li:nth-child(1) a {
+    padding: 1rem 3.6rem;
+}
+
+.cv .box .bgcolor:hover{
+    opacity: 0.7;
+    
+}
+
+.cv .box .bgcolor li a:hover{
+    font-size: 1.7rem;
+    color: var(--site_color_1_hover);
+    border-color: var(--site_color_1_hover);
+}
