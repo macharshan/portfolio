@@ -10,6 +10,22 @@ html {
     font-size: 62.5%;
 }
 
+::-webkit-scrollbar{
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #b7c3c5;
+    border-radius: 10rem;
+    margin-block: -0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 0.7rem;
+    background-color: #2e2e2e;
+    border-radius: 10rem;
+}
+
 body::after{
     width: 0;
     height: 0;
@@ -42,8 +58,8 @@ h3 {
 }
 
 p {
-    font-size: 1.8rem;
-    line-height: 1.75;
+    font-size: 1.7rem;
+    line-height: 2;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
 }
