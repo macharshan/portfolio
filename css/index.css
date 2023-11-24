@@ -1,29 +1,24 @@
 /*------hero-section -----*/
 .hero_section {
+    margin-top: 4rem;
     width: 100%;
     height: 100vh;
-}
+    background-image:  url(../img/hero_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
 /*------- about------- */
-#about {
-    width: 100%;
-    padding: 4rem 0rem;
-    /* background-color: var(--site_color_1); */
-}
-
 .side_heading {
     text-align: center;
     font-weight: 600;
-    padding: 0 0 4rem;
-}
-
-#about h3{
-    padding: 3rem 0 0;
+    padding: 6rem 0 4rem;
 }
 
 #about p{
-    padding: 2rem 6rem;
+    padding: 2rem 0;
 }
 
 #about p a{
@@ -43,15 +38,6 @@
 #education {
     margin: 0 auto;
     background-color: var(--site_color_1);
-    padding: 7rem 0;
-}
-
-#education .education_info {
-    width: 100%;
-    padding: 3rem;
-}
-
-#education .education_info h3{
     padding-bottom: 4rem;
 }
 
@@ -65,23 +51,10 @@
 .education_info th {
     font-size: 2.1rem;
     font-weight: 600;
-    padding-bottom: 2rem;
-}
-
-#education_info td {
-    font-weight: 400;
+    padding-bottom: 2.5rem;
 }
 
 /*------ skills ------*/
-
-#skills {
-    padding: 6rem 0;
-    margin: 0 auto;
-}
-
-#skills h3{
-    padding-bottom: 1.2rem;
-}
 
 #skills h2{
     padding: 2rem 0;
@@ -89,7 +62,6 @@
 }
 
 .skill_box {
-    margin: 0 auto;
     height: 0.4rem;
     border: 0.1rem solid #000;
     border-radius: 0.2rem;
@@ -120,15 +92,8 @@
     width: 50%;
 }
 
-/*------projects------*/
+/*------no_css_for_projects _scetions------*/
 
-#projects {
-    padding: 8rem 0;
-}
-
-#projects h3{
-    padding: 0 0 4rem;
-}
 
 /*------ cv ------*/
 
@@ -148,7 +113,6 @@
 .cv .box {
     width: 35.2rem;
     height: 50rem;
-    padding: 0;
     background-image:url(/img/cv.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -159,14 +123,19 @@
 .cv .box .bgcolor{
     width: 100%;
     height: 100%;
-    background-color: #000;
-    opacity: 0;
-    position: relative;
-    transition: all ease-in-out 150ms;
-    display: flex;
+    background-color: #000;display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    transition: all ease-in-out 150ms;
+    opacity: 0;
+}
+
+
+.cv .box .bgcolor:hover{
+    opacity: 0.7;
+    
 }
 
 .cv .box .bgcolor a{
@@ -179,11 +148,6 @@
 
 .cv .box ul li:nth-child(1) a {
     padding: 1rem 3.6rem;
-}
-
-.cv .box .bgcolor:hover{
-    opacity: 0.7;
-    
 }
 
 .cv .box .bgcolor li a:hover{
