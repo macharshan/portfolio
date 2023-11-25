@@ -9,7 +9,7 @@
 html {
     font-size: 62.5%;
 }
-/* 
+
 ::-webkit-scrollbar{
     width: 0.7rem;
 }
@@ -24,7 +24,7 @@ html {
     width: 0.7rem;
     background-color: #2e2e2e;
     border-radius: 10rem;
-} */
+}
 
 body::after{
     width: 0;
@@ -79,7 +79,7 @@ a {
 
 u, U {
     text-decoration: underline;
-    text-decoration-color: #912844;
+    text-decoration-color: #a71e42;
 }
 
 .wrapper{
