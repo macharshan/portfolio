@@ -182,7 +182,10 @@
 }
 
 
-/* mediaquery */
+/* mediaquerys */
+
+
+/* media_query_for_mobile_device_(600px */
 
 @media screen and (max-width:600px) {
     /*------- about------- */
@@ -193,7 +196,7 @@
     /* -----education------ */
     #education {
         margin: 0 auto;
-        padding-bottom: 4rem;
+        padding:0 1rem 4rem;
     }
 
     .education_info {
@@ -208,7 +211,7 @@
         width: 100%;
         display: contents;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 3.5rem;
     }
 
@@ -265,10 +268,11 @@
     }
 
     .cv .box .small_version li:nth-child(2){
-        flex-grow:1.5;
+        flex-grow:1.25;
     }
-    
 }
+
+/*end_of_media_query_for_mobile_device */
 
 
 /* end_of_mediaQuary */

@@ -175,9 +175,12 @@ a {
 
 
 /* mediaquery */
+
+/* media_query_for_mobile_device_(600px)*/
+
 @media screen and (max-width:600px) {
     .wrapper{
-        width: 80%;
+        width: 90%;
     }
     
     /* navigation bar */
@@ -212,3 +215,8 @@ a {
     }
 
 }
+
+/* end_of_media_query_for_mobile_device */
+
+
+/* end_of_media_query */
