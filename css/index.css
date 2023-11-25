@@ -12,12 +12,12 @@
 
 .hero_section h1 {
     background-color: #191919;
-    height: 50px;
+    height: 5rem;
     font-size: 4.5rem;
     color: var(--site_color_1);
     text-align: center;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 5rem;
     overflow: hidden;
 }
 
@@ -34,22 +34,22 @@
         top: 0;
     }
     26%{
-        top: -50px;
+        top: -5rem;
     }
     50%{
-        top: -50px;
+        top: -5rem;
     }
     51%{
-        top: -100px;
+        top: -10rem;
     }
     75%{
-        top: -100px;
+        top: -10rem;
     }
     76%{
-        top: -150px;
+        top: -15rem;
     }
     100%{
-        top: -150px;
+        top: -15rem;
     }
 }
 
