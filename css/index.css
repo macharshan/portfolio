@@ -1,13 +1,56 @@
 /*------hero-section -----*/
 .hero_section {
-    margin-top: 4rem;
     width: 100%;
     height: 100vh;
-    background-image:  url(../img/hero_image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #191919;
+    font-family: 'Unbuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.hero_section h1 {
+    background-color: #191919;
+    height: 50px;
+    font-size: 4.5rem;
+    color: var(--site_color_1);
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.hero_section h1 ul li {
+    position: relative;
+    animation: 7s ease-in-out 250ms 1 normal forwards running rolling_words;
+}
+
+@keyframes rolling_words {
+    0%{
+        top: o;
+    }
+    25%{
+        top: 0;
+    }
+    26%{
+        top: -50px;
+    }
+    50%{
+        top: -50px;
+    }
+    51%{
+        top: -100px;
+    }
+    75%{
+        top: -100px;
+    }
+    76%{
+        top: -150px;
+    }
+    100%{
+        top: -150px;
+    }
 }
 
 /*------- about------- */
@@ -188,6 +231,11 @@
 /* media_query_for_mobile_device_(600px */
 
 @media screen and (max-width:600px) {
+    /*------hero-section -----*/
+    .hero_section h1 {
+        font-size: 3.5rem;
+    }
+    
     /*------- about------- */
     #about p .extra_information {
         display: none;
