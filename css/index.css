@@ -27,7 +27,7 @@ html{
 
 .hero_section h1 ul li {
     position: relative;
-    animation: 7s ease-in-out 250ms 1 normal forwards running rolling_words;
+    animation: 5s ease-in-out 180ms 1 normal forwards running rolling_words;
 }
 
 @keyframes rolling_words {
@@ -241,8 +241,8 @@ section #education table{
 
 @media screen and (max-width:600px) {
     /*------hero-section -----*/
-    .hero_section h1 {
-        font-size: 3.5rem;
+    .hero_section h1 ul li {
+        font-size: 2.5rem;
     }
     
     /*------- about------- */
@@ -343,6 +343,8 @@ section #education table{
 /*end_of_media_query_for_mobile_device */
 
 @media screen and (min-width:601px) and (max-width: 776px) {
+    /* hero_section */
+    
     
     /* -----education------ */
     #education {
