@@ -186,6 +186,7 @@ section #education table{
 .cv .box {
     width: 35.2rem;
     height: 50rem;
+    background-color: #fff;
     background-image:url(/img/cv.png);
     background-repeat: no-repeat;
     background-size: contain;
