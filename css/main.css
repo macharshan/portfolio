@@ -78,6 +78,10 @@ a {
     font-weight: 600;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 u, U {
     text-decoration: underline;
     text-decoration-color: #a71e42;
