@@ -141,23 +141,29 @@ section #education table{
 }
 
 .java {
-    width: 50%;
-}
-
-.html {
     width: 40%;
 }
 
-.javascript {
-    width: 10%;
+.html {
+    width: 80%;
 }
 
-.python {
-    width: 35%;
+.javascript {
+    width: 70%;
 }
 
 .sql {
-    width: 30%;
+    width: 50%;
+}
+
+
+.spanlibraries{
+    font-weight: 400;
+}
+
+.divlibraries{
+    font-weight: 400;
+    visibility: hidden;
 }
 
 /*------projects _scetions------*/
@@ -293,6 +299,20 @@ section #education table{
         list-style: none;
         font-size: 3.2rem;
     }
+    
+
+    /* skills */
+    .spanlibraries{
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .divlibraries{
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    /* end of skills */
     
     
     /*------ cv ------*/
